@@ -1,0 +1,11 @@
+For 1000 user:
+jmeter -n -t  nop1000.jmx -l nop1000.jtl
+jmeter -g nop1000.jtl -o nop1000.html
+
+For 1100 user:
+jmeter -n -t  nop1100.jmx -l nop1100.jtl
+jmeter -g nop1100.jtl -o nop1100.html
+
+For 1100 user:
+jmeter -n -t  nop1200.jmx -l nop1200.jtl
+jmeter -g nop1200.jtl -o nop1200.html
